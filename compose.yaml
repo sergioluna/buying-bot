@@ -4,3 +4,4 @@ services:
       context: ./bot
     volumes:
       - ./bot:/usr/src/app
+    env_file: .env
